@@ -1,0 +1,125 @@
+eo:
+  ArchiveWidget:
+    PLURALNAME: 'Enarĥivi fenestraĵojn'
+    SINGULARNAME: 'Enarĥivi fenestraĵon'
+  Blog:
+    AND: kaj
+    Archive: Arkivo
+    By: de
+    CONTRIBUTOR: Kontribuinto
+    Categories: Kategorioj
+    Category: Kategorio
+    Comments: Komentoj
+    DESCRIPTION: 'Aldonas blogon al via retejo.'
+    EDITOR: Redaktinto
+    FILTERDESCRIPTION_AUTHOR: 'De {aŭtoro}'
+    FILTERDESCRIPTION_CATEGORY: 'En kategorio {kategorio}'
+    FILTERDESCRIPTION_DATE: 'En {dato}'
+    FILTERDESCRIPTION_PAGE: 'Paĝo {paĝo}'
+    FILTERDESCRIPTION_TAG: 'Etikedo {etikedo}'
+    LumberjackTitle: 'Blogaj afiŝoj'
+    NoPosts: 'Mankas afiŝoj'
+    NoUnfeaturedPosts: 'Mankas prezentitaj afiŝoj'
+    PERMISSIONS_CATEGORY: 'Blogaj permesoj'
+    PERMISSION_MANAGE_USERS_DESCRIPTION: 'Administri uzantojn por specifaj blogaĵoj'
+    PERMISSION_MANAGE_USERS_HELP: 'Permesi agordi redaktantojn, verkantojn, aŭ kontribuantojn al blogoj'
+    PLURALNAME: 'Bazaj paĝoj'
+    Posted: Afiŝita
+    PostedIn: 'Afiŝita en'
+    PostsPerPage: 'Afiŝoj en ĉiu paĝo'
+    ReadMoreAbout: 'Legi plu pri ''{title}''...'
+    SINGULARNAME: Blogo
+    Tag: Etikedo
+    Tagged: 'Havas etikedon'
+    Tags: Etikedoj
+    WRITER: Verkanto
+  BlogArchiveWidget:
+    ArchiveType: ArkivoTipo
+    Blog: Blogo
+    NumberToDisplay: 'Nombro vidigotaj'
+    PLURALNAME: 'Fenestraĵoj por bloga arkivo'
+    SINGULARNAME: 'Fenestraĵo por bloga arkivo'
+  BlogCategoriesWidget:
+    Blog: Blogo
+    Direction:
+      Description: 'Ŝanĝi la direkton de ordigo de kategorioj vidigotaj de tiu fenestraĵo.'
+      Label: Direkto
+    Limit:
+      Description: 'Limigu la nombron da kategorioj vidigotaj de tiu fenestraĵo (agordu al 0 por vidigi ĉiujn kategoriojn).'
+      Label: Limigi
+    PLURALNAME: 'Fenestraĵoj por blogaj kategorioj'
+    SINGULARNAME: 'Fenestraĵo por blogaj kategorioj'
+    Sort:
+      Description: 'Ŝanĝi la ordon de kategorioj vidigotaj de tiu fenestraĵo.'
+      Label: Ordigi
+  BlogCategory:
+    Duplicate: 'Bloga kategorio jam ekzistas kun tiu nomo'
+    PLURALNAME: 'Blogaj kategorioj'
+    SINGULARNAME: 'Bloga kategorio'
+    Title: Titolo
+  BlogEntry:
+    DESCRIPTION: 'Komuna enhavpaĝo'
+    PLURALNAME: 'Bazaj paĝoj'
+    SINGULARNAME: Blogero
+  BlogHolder:
+    DESCRIPTION: 'Komuna enhavpaĝo'
+    PLURALNAME: 'Bazaj paĝoj'
+    SINGULARNAME: Blogenhavo
+  BlogPost:
+    AUTHOR: Aŭtoro
+    AdditionalCredits: 'Kromaj agnoskoj'
+    AdditionalCredits_Description: 'Se iuj aŭtoroj de ĉi tiu afiŝo ne havas CMS-aliron, enigu iliajn nomo(j)n ĉi tie. Vi povas apartigi plurajn nomojn per komo.'
+    Authors: Aŭtoroj
+    CUSTOMSUMMARY: 'Aldoni propran resumon'
+    Categories: Kategorioj
+    DESCRIPTION: 'Komuna enhavpaĝo'
+    FeaturedImage: 'Prezentita bildo'
+    PLURALNAME: 'Bazaj paĝoj'
+    PageTitleLabel: 'Titolo de afiŝo'
+    PublishDate: 'Dato de publikigo'
+    PublishDate_Description: 'Agordiĝos al "nun", se publikigita sen valoro'
+    SINGULARNAME: Blogaĵo
+    SUMMARY_DESCRIPTION: 'Se resumo ne estas agordita, la unuaj 30 vortoj uziĝos.'
+    Tags: Etikedoj
+  BlogRecentPostsWidget:
+    Blog: Blog
+    NumberOfPosts: 'Nombro da afiŝoj'
+    PLURALNAME: 'Fenestraĵoj de lastaj blogaĵoj'
+    SINGULARNAME: 'Fenestraĵo de lastaj blogaĵoj'
+  BlogTag:
+    Duplicate: 'Blogaj etikedoj jam ekzistas kun tiu nomo'
+    PLURALNAME: 'Blogaj etikedoj'
+    SINGULARNAME: 'Bloga etikedo'
+    Title: Titolo
+  BlogTagsCloudWidget:
+    Blog: Blogo
+    PLURALNAME: 'Nubaj fenestraĵoj por blogaj etikedoj'
+    SINGULARNAME: 'Nuba fenestraĵo por blogaj etikedoj'
+  BlogTagsWidget:
+    Blog: Blog
+    Direction:
+      Description: 'Ŝanĝi la direkton de ordigo de etikedoj vidigotaj de tiu fenestraĵo.'
+      Label: Direkto
+    Limit:
+      Description: 'Limigu la nombron da etikedoj vidigotaj de tiu fenestraĵo (agordu al 0 por vidigi ĉiujn etikedojn).'
+      Label: Limigi
+    PLURALNAME: 'Fenestraĵoj por blogaj etikedoj'
+    SINGULARNAME: 'Fenestraĵo por blogaj etikedoj'
+    Sort:
+      Description: 'Ŝanĝi la ordon de etikedoj vidigotaj de tiu fenestraĵo.'
+      Label: Ordigi
+  BlogTree:
+    DESCRIPTION: 'Komuna enhavpaĝo'
+    PLURALNAME: 'Bazaj paĝoj'
+    SINGULARNAME: Blogarbo
+  GridFieldAddByDBField:
+    Add: 'Aldoni {name}'
+    AddFail: '{klaso} ne estas konservebla al la datumbazo.'
+    PermissionFail: 'Vi ne havas permeson krei je {klaso}.'
+  GridFieldBlogPostState:
+    Draft: '<i class="btn-icon gridfield-icon btn-icon-pencil"></i> Konservita kiel malneto je {dato}'
+    Published: '<i class="btn-icon gridfield-icon btn-icon-accept"></i> Publikigita je {dato}'
+    Timer: '<i class="gridfield-icon blog-icon-timer"></i> Publikigi je {dato}'
+  TagCloudWidget:
+    PLURALNAME: 'Etikednubaj fenestraĵoj'
+    SINGULARNAME: 'Etikednuba fenestraĵo'

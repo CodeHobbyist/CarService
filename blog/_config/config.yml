@@ -1,0 +1,6 @@
+---
+Name: blogconfig
+---
+Member:
+  extensions:
+    - BlogMemberExtension

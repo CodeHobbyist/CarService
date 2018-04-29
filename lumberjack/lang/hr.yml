@@ -1,0 +1,11 @@
+hr:
+  GridFieldSiteTreeAddNewButton:
+    Add: 'Dodaj novi {name}'
+    AddMultipleOptions: 'Dodaj novi'
+  GridFieldSiteTreeState:
+    Draft: '<i class="btn-icon gridfield-icon btn-icon-pencil"></i> Spremljeno kao Draft u {date}'
+    Modified: Promjenjeno
+    Published: '<i class="btn-icon gridfield-icon btn-icon-accept"></i> Objavljeno u {date}'
+    StateTitle: Stanje
+  Lumberjack:
+    TabTitle: Podstranice

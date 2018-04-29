@@ -1,0 +1,11 @@
+eo:
+  GridFieldSiteTreeAddNewButton:
+    Add: 'Enmeti novan {name}'
+    AddMultipleOptions: 'Enmeti novan'
+  GridFieldSiteTreeState:
+    Draft: '<i class="btn-icon gridfield-icon btn-icon-pencil"></i> konserviĝis kiel malneto je {date}'
+    Modified: Ŝanĝita
+    Published: '<i class="btn-icon gridfield-icon btn-icon-accept"></i> publikiĝis je {date}'
+    StateTitle: Stato
+  Lumberjack:
+    TabTitle: 'Idoj de paĝoj'

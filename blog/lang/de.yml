@@ -1,0 +1,123 @@
+de:
+  ArchiveWidget:
+    PLURALNAME: 'Archiv Widgets'
+    SINGULARNAME: 'Archiv Widget'
+  Blog:
+    AND: und
+    Archive: Archiv
+    By: von
+    CONTRIBUTOR: Mitwirkende
+    Categories: Kategorien
+    Category: Kategorie
+    Comments: Kommentare
+    DESCRIPTION: 'Fügt einen Blog zu Ihrer Webseite hinzu'
+    EDITOR: Verfasser
+    FILTERDESCRIPTION_AUTHOR: 'Von {author}'
+    FILTERDESCRIPTION_CATEGORY: 'In Kategorie {category}'
+    FILTERDESCRIPTION_DATE: 'Am {date}'
+    FILTERDESCRIPTION_PAGE: 'Seite {page}'
+    FILTERDESCRIPTION_TAG: 'Verschlagwortet mit {tag}'
+    LumberjackTitle: Blog-Einträge
+    NoPosts: 'Keine Blog-Einträge vorhanden'
+    PERMISSIONS_CATEGORY: 'Blog Berechtigungen'
+    PERMISSION_MANAGE_USERS_DESCRIPTION: 'Benutzer für einzelne Blog-Einträge verwalten'
+    PERMISSION_MANAGE_USERS_HELP: 'Erlaubt, Editoren, Autoren und Mitwirkende zum Blog hinzuzufügen'
+    PLURALNAME: 'Basis Seiten'
+    Posted: Veröffentlicht
+    PostedIn: 'Veröffentlicht in'
+    PostsPerPage: 'Einträge pro Seite'
+    ReadMoreAbout: 'Lesen Sie mehr über ''{title}'''
+    SINGULARNAME: Blog
+    Tag: Schlagwort
+    Tagged: Verschlagwortet
+    Tags: Schlagworte
+    WRITER: Autor
+  BlogArchiveWidget:
+    ArchiveType: Archivtyp
+    Blog: Blog
+    NumberToDisplay: 'Anzahl anzeigen'
+    PLURALNAME: 'Blog Archiv Widgets'
+    SINGULARNAME: 'Blog Archiv Widget'
+  BlogCategoriesWidget:
+    Blog: Blog
+    Direction:
+      Description: 'Ändern Sie die Sortierreihenfolge der Kategorien, die von diesem Widget angezeigt werden.'
+      Label: Richtung
+    Limit:
+      Description: 'Begrenzen Sie die Anzahl der angezeigten Kategorien (0 zeigt alle Kategorien)'
+      Label: Begrenzen
+    PLURALNAME: 'Blog Kategorien Widgets'
+    SINGULARNAME: 'Blog Kategorien Widget'
+    Sort:
+      Description: 'Ändern Sie die Sortierung der Kategorien, die von diesem Widget angezeigt werden.'
+      Label: Sortierung
+  BlogCategory:
+    Duplicate: 'Es gibt bereits eine Blog-Kategorie mit diesem Namen'
+    PLURALNAME: 'Blog Kategorien'
+    SINGULARNAME: 'Blog Kategorie'
+    Title: Titel
+  BlogEntry:
+    DESCRIPTION: 'Allgemeine Inhaltsseite'
+    PLURALNAME: 'Basis Seiten'
+    SINGULARNAME: Blogeintrag
+  BlogHolder:
+    DESCRIPTION: 'Allgemeine Inhaltsseite'
+    PLURALNAME: 'Basis Seiten'
+    SINGULARNAME: Blog
+  BlogPost:
+    AUTHOR: Autor
+    AdditionalCredits: 'Zusätzliche Credits'
+    AdditionalCredits_Description: 'Wenn Autoren dieses Eintrags keinen Zugang zum CMS haben, können Sie die Namen hier mit Kommas getrennt eintragen.'
+    Authors: Autoren
+    CUSTOMSUMMARY: Zusammenfassung
+    Categories: Kategorien
+    DESCRIPTION: 'Allgemeine Inhaltsseite'
+    PLURALNAME: 'Basis Seiten'
+    PageTitleLabel: Titel
+    PublishDate: 'Datum der Veröffentlichung'
+    PublishDate_Description: 'Jetzt, wenn nichts eingegeben wird.'
+    SINGULARNAME: Blog-Eintrag
+    SUMMARY_DESCRIPTION: 'Wenn keine Zusammenfassung angegeben wird, werden die ersten 30 Wörter verwendet.'
+    Tags: Schlagworte
+  BlogRecentPostsWidget:
+    Blog: Blog
+    NumberOfPosts: 'Anzahl der Einträge'
+    PLURALNAME: 'Aktuelle Blog Einträge Widgets'
+    SINGULARNAME: 'Aktuelle Blog Einträge Widget'
+  BlogTag:
+    Duplicate: 'Es gibt bereits einen Blog-Tag mit diesem Namen'
+    PLURALNAME: 'Blog Schlagworte'
+    SINGULARNAME: 'Blog Schlagwort'
+    Title: Titel
+  BlogTagsCloudWidget:
+    Blog: Blog
+    PLURALNAME: Blog-Tag-Cloud-Widgets
+    SINGULARNAME: Blog-Tag-Cloud-Widget
+  BlogTagsWidget:
+    Blog: Blog
+    Direction:
+      Description: 'Ändern Sie die Sortierreihenfolge der Schlagworte, die von diesem Widget angezeigt werden.'
+      Label: Richtung
+    Limit:
+      Description: 'Begrenzen Sie die Anzahl der angezeigten Schlagworte (0 zeigt alle Schlagworte)'
+      Label: Begrenzen
+    PLURALNAME: 'Blog Schlagworte Widgets'
+    SINGULARNAME: 'Blog Schlagworte Widget'
+    Sort:
+      Description: 'Ändern Sie die Sortierung der Schlagworte, die von diesem Widget angezeigt werden.'
+      Label: Sortierung
+  BlogTree:
+    DESCRIPTION: 'Allgemeine Inhaltsseite'
+    PLURALNAME: 'Basis Seiten'
+    SINGULARNAME: 'Blog Baum-Ansicht'
+  GridFieldAddByDBField:
+    Add: '{name} hinzufügen'
+    AddFail: 'Kann Klasse {class} nicht in der Datenbank speichern.'
+    PermissionFail: 'Sie haben keine Berechtigungen, um {class} zu erstellen.'
+  GridFieldBlogPostState:
+    Draft: '<i class="btn-icon gridfield-icon btn-icon-pencil"></i> Als Entwurf am {date} gespeichert'
+    Published: '<i class="btn-icon gridfield-icon btn-icon-accept"></i> Veröffentlicht am {date}'
+    Timer: '<i class="gridfield-icon blog-icon-timer"></i> Am {date} veröffentlichen'
+  TagCloudWidget:
+    PLURALNAME: 'Schlagwortwolke Widgets'
+    SINGULARNAME: 'Schlagwortwolke Widget'

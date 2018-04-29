@@ -1,0 +1,17 @@
+---
+Name: blogcommentsconfig
+Only:
+  moduleexists: comments
+---
+Comment:
+  extensions:
+    - BlogCommentExtension
+
+---
+Name: blogcommentnotifications
+Only:
+  moduleexists: 'comment-notifications'
+---
+BlogPost:
+  extensions:
+    - BlogPostNotifications

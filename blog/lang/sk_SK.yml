@@ -1,0 +1,121 @@
+sk_SK:
+  ArchiveWidget:
+    PLURALNAME: 'Widgety archív'
+    SINGULARNAME: 'Widget archív'
+  Blog:
+    AND: a
+    Archive: Archív
+    By: ' od'
+    CONTRIBUTOR: Prispievateľ
+    Categories: Kategórie
+    Category: Kategória
+    Comments: Komentáre
+    DESCRIPTION: 'Pridá blog na stránku.'
+    EDITOR: Vydavateľ
+    FILTERDESCRIPTION_AUTHOR: '{author}'
+    FILTERDESCRIPTION_CATEGORY: 'V kategórii {category}'
+    FILTERDESCRIPTION_DATE: '{date}'
+    FILTERDESCRIPTION_PAGE: 'Stránka {page}'
+    FILTERDESCRIPTION_TAG: 'Štítkovaný {tag}'
+    LumberjackTitle: 'Príspevky v blogu'
+    NoPosts: 'Žiadne príspevky'
+    PERMISSIONS_CATEGORY: 'Práva blogu'
+    PERMISSION_MANAGE_USERS_DESCRIPTION: 'Správa užívateľov pre jednotlivé blogy'
+    PERMISSION_MANAGE_USERS_HELP: 'Umožniť priradenie vydavateľov, spisovateľov alebo prispievateľov do blogu.'
+    PLURALNAME: Blogy
+    Posted: Uverejnené
+    PostedIn: 'Uverejnené v'
+    PostsPerPage: 'Príspevky na stránke'
+    ReadMoreAbout: 'Čítať viac o ''{title}''...'
+    SINGULARNAME: Blog
+    Tag: 'Štítok'
+    Tagged: Oštítkované
+    Tags: 'Štítky'
+    WRITER: Spisovateľ
+  BlogArchiveWidget:
+    ArchiveType: 'Typ archívu'
+    Blog: Blog
+    NumberToDisplay: 'Počet na zobrazenie'
+    PLURALNAME: 'Widgety archívu blogu'
+    SINGULARNAME: 'Widget archívu blogu'
+  BlogCategoriesWidget:
+    Blog: Blog
+    Direction:
+      Description: 'Zmení smer usporiadania kategórií na tomto widgete.'
+      Label: Smer
+    Limit:
+      Description: 'Obmedzí počet zobrazených kategórií na tomto widgete (nastavením na 0 sa zobrazujú všetky kategórie).'
+      Label: 'Max. počet'
+    PLURALNAME: 'Widgety kategórií blogu'
+    SINGULARNAME: 'Widget kategórií blogu'
+    Sort:
+      Description: 'Zmení usporiadanie kategórií na tomto widgete.'
+      Label: Usporiadanie
+  BlogCategory:
+    Duplicate: 'Kategória blogu s týmto názvom už existuje'
+    PLURALNAME: 'Kategórie blogu'
+    SINGULARNAME: 'Kategória blogu'
+    Title: Názov
+  BlogEntry:
+    DESCRIPTION: 'Generický obsah stránky'
+    PLURALNAME: 'Základné stránky'
+  BlogHolder:
+    DESCRIPTION: 'Generický obsah stránky'
+    PLURALNAME: 'Základné stránky'
+  BlogPost:
+    AUTHOR: Autor
+    AdditionalCredits: 'Doplnkoví autori'
+    AdditionalCredits_Description: 'Ak niektorí autori tohto príspevku nemajú prístup k CMS, zadajte ich mená sem. Viacero autorov môžete oddeliť čiarkou.'
+    Authors: Autori
+    CUSTOMSUMMARY: 'Pridať vlastné zhrnutie'
+    Categories: Kategórie
+    DESCRIPTION: 'Generický obsah stránky'
+    FeaturedImage: 'Hlavný obrázok'
+    PLURALNAME: 'Príspevky v blogu'
+    PageTitleLabel: 'Názov príspevku'
+    PublishDate: 'Dátum publikovania'
+    PublishDate_Description: 'V prípade zverejnenia bez hodnoty bude nastavený aktuálny dátum a čas.'
+    SINGULARNAME: 'Príspevok v blogu'
+    SUMMARY_DESCRIPTION: 'Ak zhrnutie nie je uvedené, bude použitých prvých 30 slov z obsahu.'
+    Tags: 'Štítky'
+  BlogRecentPostsWidget:
+    Blog: Blog
+    NumberOfPosts: 'Počet príspevkov'
+    PLURALNAME: 'Widgety nedávnych príspevkov blogu'
+    SINGULARNAME: 'Widget nedávnych príspevkov blogu'
+  BlogTag:
+    Duplicate: 'Štítok blogu s týmto názvom už existuje'
+    PLURALNAME: 'Štítky blogu'
+    SINGULARNAME: 'Štítok blogu'
+    Title: Názov
+  BlogTagsCloudWidget:
+    Blog: Blog
+    PLURALNAME: 'Widgety používaných štítkov blogu'
+    SINGULARNAME: 'Widget používaných štítkov blogu'
+  BlogTagsWidget:
+    Blog: Blog
+    Direction:
+      Description: 'Zmení smer usporiadania štítkov na tomto widgete.'
+      Label: Smer
+    Limit:
+      Description: 'Obmedzí počet zobrazených štítkov na tomto widgete (nastavením na 0 sa zobrazujú všetky štítky).'
+      Label: 'Max. počet'
+    PLURALNAME: 'Widgety štítkov blogu'
+    SINGULARNAME: 'Widget štítkov blogu'
+    Sort:
+      Description: 'Zmení usporiadanie štítkov na tomto widgete.'
+      Label: Usporiadanie
+  BlogTree:
+    DESCRIPTION: 'Generický obsah stránky'
+    PLURALNAME: 'Základné stránky'
+  GridFieldAddByDBField:
+    Add: 'Pridať {name}'
+    AddFail: 'Nie je možné uložiť {class} do databázy.'
+    PermissionFail: 'Nemáte oprávnenie na vytvorenie {class}.'
+  GridFieldBlogPostState:
+    Draft: '<i class="btn-icon gridfield-icon btn-icon-pencil"></i> Uložený ako koncept dňa {date}'
+    Published: '<i class="btn-icon gridfield-icon btn-icon-accept"></i> Publikovaný dňa {date}'
+    Timer: '<i class="gridfield-icon blog-icon-timer"></i> Zverejnený dňa {date}'
+  TagCloudWidget:
+    PLURALNAME: 'Widgety používaných štítkov'
+    SINGULARNAME: 'Widget používaných štítkov'
