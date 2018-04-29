@@ -31,4 +31,5 @@ class Page_Controller extends ContentController
         Requirements::javascript($this->ThemeDir().'/javascript/modernizer.js');
         Requirements::javascript($this->ThemeDir().'/javascript/libs/min/custom.js');
     }
+    
 }

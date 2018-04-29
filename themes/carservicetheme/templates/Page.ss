@@ -218,6 +218,7 @@
 	</section>
 	<!-- End Why Choose us -->
 	<!-- Start Our Services -->
+	$Form
 	<section class="paragraph-bg-1 bcc-padding">
 		<div class="container">
 			<div class="row">

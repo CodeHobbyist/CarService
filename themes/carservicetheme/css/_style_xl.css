@@ -664,7 +664,7 @@ blockquote {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1; }
   .fixed-menu .logo {
-    top: 27px; }
+    top: 1px; }
 
 .form-group {
   position: relative; }
