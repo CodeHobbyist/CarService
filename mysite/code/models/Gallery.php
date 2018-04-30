@@ -3,13 +3,24 @@
 class Gallery extends DataObject {
     private static $db = array(
         'Title' => 'Varchar',
-        'Rank' => 'Varchar'
+        'Rank' => 'Int',
+        'ShortDescription' => 'Varchar'
     );
 
-    private static $many_many = array(
-        'Pictures' => 'Image'
+    private static $has_many = array(
+        'Pictures' => 'GalleryImage'
     );
 
+    private static $summary_fields = array(
+        'Title',
+        'ImageCount'
+    );
+
+    public function ImageCount()
+    {
+        $images = DataObject::get("GalleryImage","GalleryID = {$this->ID}");
+        return $images ? $images->Count() : 0;
+    }
 
     public function getCMSFields()
     {
@@ -17,7 +28,8 @@ class Gallery extends DataObject {
 
         $fields->addFieldsToTab('Root.Main', array(
             TextField::create('Title'),
-            TextField::create('Rank')
+            TextField::create('Rank'),
+            TextField::create('ShortDescription')
         ));
 
         $fields->addFieldToTab('Root.Pictures', $photo = UploadField::create('Pictures'));
