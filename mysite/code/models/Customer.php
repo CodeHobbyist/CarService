@@ -21,7 +21,7 @@ class Customer extends DataObject {
         'FirstName'
     );
 
-    public function searchableFields(){
+    public function searchableFields() {
         return array(
             'FirstName' => array(
                 'filter' => 'PartialMatchFilter',

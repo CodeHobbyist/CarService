@@ -509,42 +509,22 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="testimonial-slider">
-						<div class="item">
-							<div class="testimonial-single text-center">
-								<div class="quote">
-									<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation." </p>
-								</div>
-								<div class="client-name">
-									<img src="$ThemeDir/images/testimonial-img-01.png" alt="" />
-									<h4>Adiba tasnim</h4>
-									<p class="designation">RR Foundation</p>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimonial-single text-center">
-								<div class="quote">
-									<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation." </p>
-								</div>
-								<div class="client-name">
-									<img src="$ThemeDir/images/testimonial-img-02.png" alt="" />
-									<h4>Johnathan Doe</h4>
-									<p class="designation">Divergent Studio</p>
+					<% if Testimonials %>
+						<% loop Testimonials(3) %>
+							<div class="item">
+								<div class="testimonial-single text-center">
+									<div class="quote">
+										$ContentText
+									</div>
+									<div class="client-name">
+										$ProfilePhoto
+										<h4>$FirstName $LastName</h4>
+										<p class="designation">$PositionTitle</p>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="item">
-							<div class="testimonial-single text-center">
-								<div class="quote">
-									<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation." </p>
-								</div>
-								<div class="client-name">
-									<img src="$ThemeDir/images/testimonial-img-03.png" alt="" />
-									<h4>Oidila Matik</h4>
-									<p class="designation">Joomshaper</p>
-								</div>
-							</div>
-						</div>
+						<% end_loop %>
+					<% end_if %>
 					</div>
 				</div>
 			</div>
