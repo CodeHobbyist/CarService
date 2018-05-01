@@ -32,9 +32,8 @@ class Page_Controller extends ContentController
         Requirements::javascript($this->ThemeDir().'/javascript/libs/min/custom.js');
     }
     
-    public function Testimonials($count) {
-        return Testimonial::get()
-                    ->limit($count);
+    public function Testimonials() {
+        return Testimonial::get();
     }
 
     public function Galleries()

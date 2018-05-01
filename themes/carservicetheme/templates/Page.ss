@@ -357,7 +357,7 @@
 				<div class="col-md-12">
 					<div class="testimonial-slider">
 					<% if Testimonials %>
-						<% loop Testimonials(3) %>
+						<% loop Testimonials %>
 							<div class="item">
 								<div class="testimonial-single text-center">
 									<div class="quote">
