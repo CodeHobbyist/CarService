@@ -31,10 +31,14 @@ class Page_Controller extends ContentController
         Requirements::javascript($this->ThemeDir().'/javascript/modernizer.js');
         Requirements::javascript($this->ThemeDir().'/javascript/libs/min/custom.js');
     }
+    
+    public function Testimonials($count) {
+        return Testimonial::get()
+                    ->limit($count);
+    }
 
     public function Galleries()
     {
         return Gallery::get();
     }
-
 }
