@@ -22,10 +22,10 @@ class Page_Controller extends ContentController
 
     public function init()
     {
-        parent::init(); 
-        Requirements::css($this->ThemeDir().'/css/bootstrap.min.css'); 
-        Requirements::css($this->ThemeDir().'/css/style.css'); 
-        Requirements::css($this->ThemeDir().'/css/responsive.css'); 
+        parent::init();
+        Requirements::css($this->ThemeDir().'/css/bootstrap.min.css');
+        Requirements::css($this->ThemeDir().'/css/style.css');
+        Requirements::css($this->ThemeDir().'/css/responsive.css');
         Requirements::javascript($this->ThemeDir().'/javascript/libs/min/vendor.js');
         Requirements::javascript($this->ThemeDir().'/javascript/particles.js');
         Requirements::javascript($this->ThemeDir().'/javascript/modernizer.js');
@@ -35,5 +35,10 @@ class Page_Controller extends ContentController
     public function Testimonials($count) {
         return Testimonial::get()
                     ->limit($count);
+    }
+
+    public function Galleries()
+    {
+        return Gallery::get();
     }
 }
