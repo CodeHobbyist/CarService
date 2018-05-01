@@ -309,187 +309,34 @@
 					</div>
 				</div>
 			</div>
-			
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="project-menu text-center">
 						<span data-filter="*" class="active">ALL</span>
-						<span data-filter=".buildings">Buildings</span>
-						<span data-filter=".renovaion-of-house">Renovaion of house</span>
-						<span data-filter=".hardwood-flooring">hardwood flooring</span>
-						<span data-filter=".Indoor-furniture">Indoor Furniture</span>
-						<span data-filter=".apartment">Apartment</span>
-						<span data-filter=".kitchen">Kitchen</span>
+						<% loop $Galleries %>
+                            <span data-filter=".gallery-$ID">$Title</span>
+						<% end_loop %>
 					</div>
 					<div class="row project-gird">
-						<div class="col-lg-3 col-md-6 renovaion-of-house" data-category="renovaion-of-house">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 renovaion-of-house" data-category="renovaion-of-house">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 buildings" data-category="buildings">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 buildings" data-category="buildings">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 hardwood-flooring" data-category="hardwood-flooring">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 hardwood-flooring" data-category="hardwood-flooring">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 Indoor-furniture" data-category="Indoor-furniture">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 Indoor-furniture" data-category="Indoor-furniture">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 apartment" data-category="apartment">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 apartment" data-category="apartment">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 kitchen" data-category="kitchen">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 col-md-6 kitchen" data-category="kitchen">
-							<div class="hover-effect">
-								<img class="thumb_gallery" src="http://via.placeholder.com/600x450" alt="" />
-								<div class="hover-text">
-									<div class="up-icon">
-										<a href="http://via.placeholder.com/600x450" data-fancybox="images" title="Car">
-											<span class="lnr lnr-magnifier"></span>
-										</a>
-									</div>
-									<h4>Car Business</h4>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
-								</div>
-							</div>
-						</div>
+						<% loop $Galleries %>
+							<% loop $Pictures %>
+                                <div class="col-lg-3 col-md-6 gallery-$Up.ID" data-category="gallery-$Up.ID">
+                                    <div class="hover-effect">
+                                        <img class="thumb_gallery" src="$Link" alt="$Title" />
+                                        <div class="hover-text">
+                                            <div class="up-icon">
+                                                <a href="$Link" data-fancybox="images" title="$Title">
+                                                    <span class="lnr lnr-magnifier"></span>
+                                                </a>
+                                            </div>
+                                            <h4>$Up.Title</h4>
+                                            <p>$Up.ShortDescription</p>
+                                        </div>
+                                    </div>
+                                </div>
+							<% end_loop %>
+						<% end_loop %>
+
 					</div>
 				</div>
 			</div>	
