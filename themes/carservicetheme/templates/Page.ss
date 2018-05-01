@@ -517,7 +517,7 @@
 										$ContentText
 									</div>
 									<div class="client-name">
-										$ProfilePhoto
+										$ProfilePhoto.CroppedImage(80,80)
 										<h4>$FirstName $LastName</h4>
 										<p class="designation">$PositionTitle</p>
 									</div>
