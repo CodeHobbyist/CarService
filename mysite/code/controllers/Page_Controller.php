@@ -18,6 +18,7 @@ class Page_Controller extends ContentController
      * @var array
      */
     private static $allowed_actions = array(
+        'QuoteForm'
     );
 
     public function init()
@@ -40,4 +41,6 @@ class Page_Controller extends ContentController
     {
         return Gallery::get();
     }
+
+
 }

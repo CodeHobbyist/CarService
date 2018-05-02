@@ -490,10 +490,7 @@
 					<div class="inner-footer">
 						<h2>About Us</h2>
 						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
-						<form action="#">
-							<input type="text" id="email" name="email" placeholder="your email address" />
-							<button type="submit"><span class="lnr lnr-location"></span></button>	
-						</form>
+						$QuoteForm
 					</div>
 				</div>
 				<div class="col-lg-3 col-sm-6 col-xs-12 footer-boxes">
