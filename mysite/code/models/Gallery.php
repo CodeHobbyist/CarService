@@ -7,18 +7,22 @@ class Gallery extends DataObject {
         'ShortDescription' => 'Varchar'
     );
 
+    // private static $has_many = array(
+    //     'Pictures' => 'GalleryImage'
+    // );
+
     private static $has_many = array(
-        'Pictures' => 'GalleryImage'
+        'Pictures' => 'Photo'
     );
 
     private static $summary_fields = array(
-        'Title',
-        'ImageCount'
+        'Title' => 'Title',
+        'ImageCount' => 'Image Count'
     );
 
     public function ImageCount()
     {
-        $images = DataObject::get("GalleryImage","GalleryID = {$this->ID}");
+        $images = DataObject::get("Photo","GalleryID = {$this->ID}");
         return $images ? $images->Count() : 0;
     }
 
@@ -32,11 +36,24 @@ class Gallery extends DataObject {
             TextField::create('ShortDescription')
         ));
 
-        $fields->addFieldToTab('Root.Pictures', $photo = UploadField::create('Pictures'));
-
-        $photo->setFolderName('gallery-pictures')
-              ->getValidator()->setAllowedExtensions(array('jpg','gif','jpeg','png'));
+        $fields->addFieldToTab("Root.Main",
+                $photo=FormUtils::make_grid_field_editor(
+                    'Pictures',
+                    'Photo List',
+                    $this->Pictures(),
+                    'PhotoItemSort',
+                    'RelationEditor',
+                    array(),
+                    false,
+                    20,
+                    true
+                ));
 
         return $fields;
+    }
+
+    public function thePhoto(){
+            $pictures = $this->Pictures();
+            return $pictures;
     }
 }
