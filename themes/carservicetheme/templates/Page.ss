@@ -319,22 +319,21 @@
 					</div>
 					<div class="row project-gird">
 						<% loop $Galleries %>
-							<% loop $Pictures %>
-                                <div class="col-lg-3 col-md-6 gallery-$Up.ID" data-category="gallery-$Up.ID">
+						  <% loop $Pictures %>
+                                <div class="col-lg-3 col-md-6 gallery-$Up.ID" data-category="gallery-$Up.ID" data-test="$Caption">
                                     <div class="hover-effect">
-                                        <img class="thumb_gallery" src="$Link" alt="$Title" />
-                                        <div class="hover-text">
+                                        <img class="thumb_gallery" src="$FeaturedImage.Fit(720,255).Link" alt="$AltLabel" />
+										<div class="hover-text">
                                             <div class="up-icon">
-                                                <a href="$Link" data-fancybox="images" title="$Title">
+                                                <a href="$FeaturedImage.Fit(720,255).Link" data-fancybox="images" title="$Caption">
                                                     <span class="lnr lnr-magnifier"></span>
                                                 </a>
                                             </div>
-                                            <h4>$Up.Title</h4>
-                                            <p>$Up.ShortDescription</p>
+                                            <h4>$Caption</h4>
                                         </div>
                                     </div>
                                 </div>
-							<% end_loop %>
+						  <% end_loop %>
 						<% end_loop %>
 
 					</div>
