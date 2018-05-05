@@ -444,6 +444,7 @@
 			</div>			
 		</div>
 	</section>
+	$ContactForm
 	<!-- End Partner -->
 	<!-- Start Footer -->
 	<footer class="footer-main">
